@@ -1,0 +1,3 @@
+button:not([aria-label]) {
+  outline: 2px dashed #e00b0b !important;
+}
