@@ -1,3 +1,9 @@
+/* ARIA Label */
+input[type='button']:not([aria-label]),
+input[type='submit']:not([aria-label]),
+input[type='text']:not([aria-label]),
+input[type='email']:not([aria-label]),
+input[type='password']:not([aria-label]),
 button:not([aria-label]) {
-  outline: 2px dashed #e00b0b !important;
+  outline: 2px dashed #ffd900 !important;
 }
