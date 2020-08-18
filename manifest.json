@@ -4,6 +4,10 @@
   "description": "Detecta si está aplicado 'ARIA-label' en las etiquetas HTML.",
   "short_name": "ARIA Detect",
   "version": "0.0.1",
+  "icons": {
+    "128": "./icons/icon128.png",
+    "48": "./icons/icon48.png"
+  },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
@@ -12,6 +16,7 @@
     }
   ],
   "browser_action": {
-    "default_title": "ARIA Detect"
+    "default_title": "ARIA Detect",
+    "default_icon": "./icons/icon128.png"
   }
 }

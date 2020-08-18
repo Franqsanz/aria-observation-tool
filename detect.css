@@ -1,9 +1,15 @@
 /* ARIA Label */
 input[type='button']:not([aria-label]),
 input[type='submit']:not([aria-label]),
+input[type='reset']:not([aria-label]),
 input[type='text']:not([aria-label]),
 input[type='email']:not([aria-label]),
 input[type='password']:not([aria-label]),
+input[type='color']:not([aria-label]),
+input[type='checkbox']:not([aria-label]),
+input[type='radio']:not([aria-label]),
+input[type='range']:not([aria-label]),
+input[type='url']:not([aria-label]),
 button:not([aria-label]) {
   outline: 2px dashed #ffd900 !important;
 }
