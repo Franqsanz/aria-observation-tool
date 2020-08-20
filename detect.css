@@ -10,6 +10,10 @@ input[type='checkbox']:not([aria-label]),
 input[type='radio']:not([aria-label]),
 input[type='range']:not([aria-label]),
 input[type='url']:not([aria-label]),
+input[type='date']:not([aria-label]),
+input[type='time']:not([aria-label]),
+input[type='file']:not([aria-label]),
+input[type='week']:not([aria-label]),
 button:not([aria-label]) {
   outline: 2px dashed #ffd900 !important;
 }
