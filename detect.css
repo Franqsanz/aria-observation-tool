@@ -14,6 +14,7 @@ input[type='date']:not([aria-label]),
 input[type='time']:not([aria-label]),
 input[type='file']:not([aria-label]),
 input[type='week']:not([aria-label]),
+i:not([aria-label]),
 button:not([aria-label]) {
   outline: 2px dashed #ffd900 !important;
 }
