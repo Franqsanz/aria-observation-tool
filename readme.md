@@ -1,7 +1,9 @@
-# ARIA Detect Extension
+# ARIA Observation Tool Extension
+![preview](./icons/1.png)
 
-Esta extensión detecta si se aplicó el "aria-label" en las etiquetas HTML.
-Si no se detecta serán remarcados con un borde amarillo.
+Herramienta como extensión del navegador para observar si en las etiquetas HTML están aplicados los atributos "ARIA".
+
+Si no están aplicados serán remarcados con un color en los bordes.
 
 Ejemplo:
-![preview](./icons/preview.png)
+![preview](./icons/2.png)

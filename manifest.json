@@ -1,22 +1,17 @@
 {
-  "manifest_version": 2,
-  "name": "ARIA Detect",
-  "description": "Detecta si está aplicado 'ARIA-label' en las etiquetas HTML.",
+  "manifest_version": 3,
+  "name": "Aria Observation Tool",
+  "description": "Herramienta como extensión del navegador para observar si en las etiquetas HTML estan aplicados los atributos 'aria'.",
   "short_name": "ARIA Detect",
   "version": "0.0.1",
   "icons": {
     "128": "./icons/icon128.png",
     "48": "./icons/icon48.png"
   },
-  "content_scripts": [
-    {
-      "matches": ["<all_urls>"],
-      "js": ["popup.js"],
-      "css": ["detect.css"]
-    }
-  ],
-  "browser_action": {
-    "default_title": "ARIA Detect",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "aria observation tool",
     "default_icon": "./icons/icon128.png"
   }
 }
