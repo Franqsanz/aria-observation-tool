@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Aria Observation Tool",
-  "description": "Herramienta como extensión del navegador para observar si en las etiquetas HTML estan aplicados los atributos 'aria'.",
-  "short_name": "ARIA Detect",
+  "description": "Herramienta como extensión del navegador para observar si en las etiquetas HTML estan aplicados los atributos ARIA.",
+  "short_name": "Aria Observation Tool",
   "version": "0.0.1",
   "icons": {
     "128": "./icons/icon128.png",
@@ -11,7 +11,7 @@
   "permissions": ["activeTab", "scripting"],
   "action": {
     "default_popup": "popup.html",
-    "default_title": "aria observation tool",
+    "default_title": "Aria Observation Tool",
     "default_icon": "./icons/icon128.png"
   }
 }

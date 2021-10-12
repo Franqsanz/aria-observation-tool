@@ -25,7 +25,6 @@ button:not([aria-label]) {
 
 body {
   width: 320px;
-  background: #fd6156;
 }
 
 h1 {
@@ -52,7 +51,7 @@ label {
 }
 
 label:hover {
-  background: #ffe862;
+  background: #ffe02f;
 }
 
 input[type='checkbox'] {
